@@ -35,7 +35,7 @@ Umbrales:
 ### Estructura
 
 ejercicio-k6/
-├── script.js          - Script principal K6
-├── usuarios.csv       - Credenciales de prueba
-├── README.md          - Este archivo
-└── conclusiones.txt   - Resultados y hallazgos
+├── script.js # Script principal K6
+├── usuarios.csv # Credenciales de prueba
+├── README.md # Este archivo
+└── conclusiones.txt # Resultados y hallazgos
