@@ -1,0 +1,26 @@
+CONCLUSIONES
+
+RESULTADOS OBTENIDOS:
+- TPS alcanzados: 28.39 TPS (supera el objetivo de 20 TPS)
+- Tiempo de respuesta p(95): 422.19 ms (muy por debajo del límite de 1500ms)
+- Tasa de error: 0.00% (excelente, por debajo del 3% permitido)
+- Iteraciones completadas: 2,276
+- Duración total: 1 minuto 20 segundos
+
+CUMPLIMIENTO DE OBJETIVOS:
+- TIEMPO DE RESPUESTA: CUMPLIDO - 422.19ms < 1500ms
+- TASA DE ERROR: CUMPLIDO - 0.00% < 3%
+- TPS: CUMPLIDO - 28.39 TPS > 20 TPS
+
+OBSERVACIONES:
+1. El servicio responde con alta consistencia en tiempos de respuesta
+2. Todos los logins generaron tokens válidos (autenticación 100% exitosa)
+3. Se detectaron 3 respuestas con tiempos elevados (hasta 5.18s) pero dentro de lo aceptable
+4. El sistema soporta cómodamente la carga objetivo y superior
+
+RECOMENDACIONES:
+- El API podría optimizarse para reducir los picos ocasionales de respuesta
+- Se recomienda realizar pruebas de estrés para determinar el límite máximo del sistema
+- Considerar pruebas de larga duración para validar estabilidad
+
+El servicio de login cumple con todos los requisitos de rendimiento establecidos y está listo para producción bajo los criterios definidos.
